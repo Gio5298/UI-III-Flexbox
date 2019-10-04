@@ -68,20 +68,17 @@ body{
 	margin:0 auto;
 	width:900px;
 	background-color: white;
-	/* border:1px solid black; */
 }
 
 .navBar{
 	display:flex;
 	width:100%;
 	justify-content: space-between;
-	/* border:1px solid black; */
 }
 
 .logo{
 	margin-top:5px;
 	width:25%;
-	/* border:1px solid black; */
 }
 
 .navDes{
@@ -90,13 +87,11 @@ body{
 	align-items:center;
 	justify-content:space-between;
 	width:70%;
-	/* border:1px solid black; */
 }
 
 a{
-	font-size:17px;
+	font-size:20px;
 	padding:15px 20px; 
-	border:1px solid black;
 }
 
 .services-header-img{
@@ -109,7 +104,6 @@ a{
 .services{
 	display:flex;
 	flex-direction:column;
-	/* border:1px solid black; */
 }
 
 h1{
@@ -123,21 +117,92 @@ h1{
 	margin-bottom: 45px;
 }
 
-.midSection{
+.midSect{
 	display:flex;
-	border:1px solid black;
-	justify-content: space-evenly;
 }
 
-.midSection h2{
+.midSect h2{
 	font-size:22px;
 }
 
-.midSection p{
+.midSect p{
 	font-size:19px;
 }
 
 .midTop{
 	display:flex;
+	padding:25px;
+	margin:25px;
 	border:1px solid black;
+	flex-direction:column;
+}
+
+.midTop button{
+	display:flex;
+}
+
+.midMid{
+	display: flex;
+	padding:25px;
+	margin:25px;
+	border:1px solid black;
+	flex-direction: column;
+}
+
+.midTop button{
+	display:flex;
+}
+
+.midSec{
+	display:flex;
+	border-bottom:1px solid black;
+	margin-bottom:30px;
+}
+
+.midsec h2{
+	font-size:22px;
+}
+
+.midSec{
+	font-size:19px;
+}
+
+.midBot{
+	display:flex;
+	padding:25px;
+	margin:25px;
+	border:1px solid black;
+	flex-direction:column;
+}
+
+.someFacts{
+	display:flex;
+	margin-bottom:90px;
+}
+
+.someFacts .facts{
+	display:flex;
+	flex-direction:column;
+}
+
+.somefacts h2{
+	font-size:22px;
+}
+
+.someFacts p{
+	font-size:19px;
+	padding-right:60px;
+	margin-bottom:20px;
+}
+
+.someFacts ul{
+	font-size: 19px;
+	text-align:left;
+	margin-left:20px;
+}
+
+footer{
+	display:flex;
+	justify-content:center;
+	font-size:19px;
 }
