@@ -62,12 +62,11 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* STARTING 'SERVICES' CODE HERE */
 
 body{
 	margin:0 auto;
-	width:875px;
+	width:900px;
 	background-color: white;
 }
 
@@ -88,108 +87,140 @@ body{
 	align-items:center;
 	justify-content:space-between;
 	width:70%;
-	/* border:1px solid black; */
 }
 
 a{
-	font-size:17px;
+	font-size:20px;
 	padding:15px 20px; 
 }
 
-.iGs{
-	display: flex;
-	/*
-	flex-wrap: wrap;
-	align-content: center;
+.services-header-img{
+    display:flex;
+	margin: 35px 0;
 	border:1px solid black;
-	width:100%;
-	*/
+	align-items: center;
 }
 
-
-
-.iod{
-	
-	font-size:60px;
-	width:40%;
-	margin-top:100px;
-	margin-left: 100px;
-	/* border:1px solid black; */
-	display: flex;
-	flex-direction: column;
-}
-
-.iod h1 {
-	text-align: center;
-}
-
-button{
-	font-size: 20px;
-	border:1px solid black;
-	border-radius: 3px;
-	padding:10px 0;
-	margin: 10px 0;
-	background: white;
-}
-
-.slantCode{
-	margin-left: 143px;
-	margin-top: 40px;
-	/* border:1px solid black; */
-}
-
-.fe-ab {
-	display: flex;
-	border-top:1px solid black;
-	margin-top: 50px;
-}
-
-.fe-ab .top-content {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	padding:25px 0;
-}
-
-.middle-img{
+.services{
 	display:flex;
-	margin: 20px 0;
+	flex-direction:column;
 }
 
-.spv {
-	display: flex;
+h1{
+	font-size: 30px;
+}
+
+.services p{
 	border-bottom:1px solid black;
-	margin:30px 0;
-	padding: 20px 0;
+	font-size: 19px;
+	padding-bottom:45px;
+	margin-bottom: 45px;
 }
 
-.spv div {
+.midSect{
+	display:flex;
+}
+
+.midSect h2{
+	font-size:22px;
+}
+
+.midSect p{
+	font-size:19px;
+}
+
+.midSect button{
+	display:flex;
+	border:1px solid black;
+	background-color: white;
+	border-radius:4px;
+	font-size: 17px;
+	padding:10px 0;
+	padding-left:40px;
+	margin-right: 160px;
+	margin-top:30px;
+}
+
+
+.midTop{
+	display:flex;
+	padding:25px;
+	margin:25px;
+	border:1px solid black;
+	flex-direction:column;
+}
+
+.midMid{
 	display: flex;
+	padding:25px;
+	margin:25px;
+	border:1px solid black;
 	flex-direction: column;
-	justify-content: space-between;
-	/* border:1px solid black; */
 }
 
-.contact-section{
+.midSec{
 	display:flex;
-	flex-direction: column;
-	/* border:1px solid black; */
+	border-bottom:1px solid black;
+	margin-bottom:30px;
 }
 
-address{
+.midSec h2{
+	font-size:22px;
+}
+
+.midSec p{
+	font-size:19px;
+}
+
+.midSec button{
 	display:flex;
-	flex-direction: column;
-	/* border:1px solid black; */
+	border:1px solid black;
+	background-color: white;
+	border-radius:4px;
+	font-size: 17px;
+	padding:10px 0;
+	padding-left:40px;
+	margin-right: 160px;
+	margin-top:30px;
 }
 
-address div{
-	/* border:1px solid black; */
-	margin:10px 0;
+
+.midBot{
+	display:flex;
+	padding:25px;
+	margin:25px;
+	border:1px solid black;
+	flex-direction:column;
+}
+
+.someFacts{
+	display:flex;
+	margin-bottom:90px;
+}
+
+.someFacts .facts{
+	display:flex;
+	flex-direction:column;
+}
+
+.somefacts h2{
+	font-size:22px;
+}
+
+.someFacts p{
+	font-size:19px;
+	padding-right:60px;
+	margin-bottom:20px;
+}
+
+.someFacts ul{
+	font-size: 19px;
+	text-align:left;
+	margin-left:20px;
 }
 
 footer{
 	display:flex;
-	/* border:1px solid black; */
-	justify-content: center;
-	margin:30px 0;
+	justify-content:center;
+	font-size:19px;
 }
